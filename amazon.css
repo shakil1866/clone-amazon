@@ -133,7 +133,11 @@ span{
     border:2px solid black;
     height: 100px;
 }
-
+.shop_section{
+display: flex;
+border: 2px  solid black;
+overflow: ;
+}
 
 
 
