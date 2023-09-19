@@ -124,34 +124,27 @@ span{
 }
 #carousel_button{
     bottom: 200px;
+    display: block;
+    height: 200px;
 }
-/* shop_section */
-.shop_section{
-    
+/* shop _section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: relative; /*most importen line for over in img*/
+    top: -300px;/*this line is also improtant */
 }
 .box{
-    border:2px solid black;
-    height: 100px;
+    
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: #FFFF;
 }
-.shop_section{
-display: flex;
-border: 2px  solid black;
-overflow: ;
+.box11 img{
+    display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*line 12,13,14 and 19,20 r doita dile he loge show koribo
 
 */
