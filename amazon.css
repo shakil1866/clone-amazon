@@ -133,7 +133,8 @@ span{
     justify-content: space-evenly;
     background-color: transparent;
     position: relative; /*most importen line for over in img*/
-    top: -300px;/*this line is also improtant */
+    top: -280px;/*this line is also improtant */
+    height: 420px;
 }
 .box{
     
@@ -142,9 +143,232 @@ span{
     width: 23%;
     background-color: #FFFF;
 }
+.box1 box,h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 13px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
 .box11 img{
+
+    
     display: flex;
 }
+.box111{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+}
+.box1_link{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: small;
+    text-decoration: none;
+    color: #007185;
+    padding-top: 15px;
+}
+.box1_link:hover{
+    text-decoration: underline;
+    color: red;
+}
+/* .box2_item{
+    width: 250px;
+    height: 200px
+} */
+.box2_img{
+    width: 250px;
+    height: 273px;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+/* .box3_item */
+.box33{
+    size: 100%;
+    height: 288px;
+    width: 278px;
+}
+.box3333{
+    display: flex;
+    justify-content: space-evenly;
+    size: 50%;
+
+}
+    .box333_item{
+        width: 120px;
+        height: 105px;
+        padding-top: 2px;
+    }
+.a{
+    padding-top: 6px !important; 
+    
+}
+.box333_item3{
+    width: 120px;
+    height: 106px;
+    padding-top: 12px;
+}
+
+/* shop_box2 */
+.shop_section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+   overflow: none;
+   padding-top: 23px;
+   margin-bottom: 20px;
+   /* background-color: blue; */
+
+}
+.box4{
+    margin-top: 23px; 
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+    background-image: url("movie_poster1.jpg");
+    /* width: 664px;
+    height: 400px; */
+    /* background-size: cover;  */
+    border: 2px solid black;
+    
+}
+.box5,.box6{
+    margin-top: 23px; 
+    width:275px;
+    height:400px;
+    border: 2px solid black;
+    
+}
+
+.movie{
+    background-size: cover;
+}
+.box44,.b{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665656;
+    font-size: 21px; 
+}
+
+.box5_img{
+    width: 120px;
+    height: 105px;
+}
+.box5555{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box55555{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box666{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box6666{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box22_link{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: small;
+    text-decoration: none;
+    color: #007185;
+    padding-top: 15px;
+}
+.box22_link:hover{
+    text-decoration: underline;
+    color: red;
+}
+.box6_2{
+    padding-top:14px;
+}
+/* today deals section */
+
+.today_deals_container{
+    margin: 20px;
+    border: 2px solid black;
+    height: 300px;
+    position: relative;
+}
+.today_deals_hading{
+    display: flex;
+    padding: 5px 0px 7px 0px  ;
+    align-items: center;
+}
+.link2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-left: 11px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #046e81;
+    padding-top: 15px;
+    text-align:end;
+}
+.link2:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+.todays_deals_product_list{
+    display: flex;
+    justify-content: space-around;
+}
+.today_deals_product_item{
+    
+    min-width: 190px;
+    width: 220pxs;
+    padding-left: 20px;
+}
+.today_deals_product_item img{
+        width: 120px;
+        height: 182px;
+        margin-bottom: 10px;
+}
+/* .discount_container{
+    border: 2px solid red;
+} */
+
+.discount_container a:first-child{
+    background-color: #CC0C39;
+    margin-top: 10px ;
+    padding: 5px 7px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.discount_container a , .two{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 5px 2px;
+    font-size: 12px;
+    color:#CC0C39 ;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+.today_deals_btn_container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;outline: none;
+    height: 100px;
+}
+.today_deals_btn{
+    padding: 30px 10px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
 /*line 12,13,14 and 19,20 r doita dile he loge show koribo
+//jon div tolonat an ata div lor-chor kora hobo hai main div to posstion:reletive diya hobo aro jon to lor-chor kora hobo hoi to possition:absole buli diya hobo
+
 
 */
